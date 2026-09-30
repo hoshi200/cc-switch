@@ -1202,7 +1202,7 @@ function App() {
                 ref={providerScrollContainerRef}
                 className="flex-1 overflow-y-auto overflow-x-hidden pb-12 px-1"
               >
-                <AnimatePresence mode="wait">
+                <AnimatePresence mode="popLayout">
                   <motion.div
                     key={activeApp}
                     initial={{ opacity: 0 }}

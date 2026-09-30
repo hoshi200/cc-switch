@@ -1,0 +1,10 @@
+{
+  "bundle": {
+    "createUpdaterArtifacts": false,
+    "windows": {
+      "wix": {
+        "version": "3.20.3.1"
+      }
+    }
+  }
+}
